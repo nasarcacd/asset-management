@@ -1,6 +1,6 @@
 # Asset Management React WebApp
 
-Display custom datagrid with Assets Services with options to filter, sorting and export info to CSV. Project built with React 16.13, Material UI, Tabular DataGrid and Node JS Express Server with a fake JSON db.
+Display custom datagrid with Assets Services  with options to filter, sorting and export info to CSV. Project built with React 16.13, [Material UI](https://material-ui.com/), [tubular-react datagrid](https://github.com/unosquare/tubular-react)  and Node JS Express Server with [tubular-nodejs](https://github.com/unosquare/tubular-nodejs) library to handle Tubular Grid request/response with a JSON data connector.
 
 ## Getting Started
 
@@ -52,7 +52,7 @@ yarn dev
 
 At the root folder take a look of db.json 
 
-### Deploy to Production
+## Deploy to Production
 
 Using heroku follow the next instructions:
 
@@ -68,6 +68,6 @@ After that when you want to deploy new changes just run the following command:
 git push heroku master
 ```
 
-### Online DEMO
+## Online DEMO
 
 https://asset-management-webapp.herokuapp.com/
