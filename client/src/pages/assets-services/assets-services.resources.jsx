@@ -5,7 +5,7 @@ import {
   ColumnSortDirection,
 } from 'tubular-common';
 
-export const API_URL = 'http://localhost:5000/api/assets/services';
+export const API_URL = '/api/assets/services';
 
 export const toolbarOptions = new ToolbarOptions({
   advancePagination: true,
