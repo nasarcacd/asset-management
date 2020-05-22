@@ -12,7 +12,8 @@ What things you need to install the software and how to install them
 
 ```
 Node JS v13.6.0
-yarn and npm 
+yarn 1.22.0
+npm 6.13.4
 ```
 
 ### Installing
@@ -35,6 +36,7 @@ npm install
 Go to the `client` directory and run the following command
 
 ```
+cd client
 yarn
 ```
 
@@ -50,4 +52,22 @@ yarn dev
 
 At the root folder take a look of db.json 
 
+### Deploy to Production
+
+Using heroku follow the next instructions:
+
+```
+heroku login
+heroku create asset-management-webapp
+git push heroku master
+```
+
+After that when you want to deploy new changes just run the following command:
+
+```
+git push heroku master
+```
+
 ### Online DEMO
+
+https://asset-management-webapp.herokuapp.com/
