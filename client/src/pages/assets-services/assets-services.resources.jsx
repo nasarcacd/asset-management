@@ -1,21 +1,18 @@
 import { ToolbarOptions } from 'tubular-react';
-import {
-  ColumnDataType,
-  createColumn,
-  ColumnSortDirection,
+import { ColumnDataType, createColumn, ColumnSortDirection,
 } from 'tubular-common';
 
-export const title = 'Mantenimiento de Activos';
+const gridName = 'Mantenimiento de Activos';
 
-export const API_URL = '/api/assets/services';
+const dataSource = '/api/assets/services';
 
-export const toolbarOptions = new ToolbarOptions({
+const toolbarOptions = new ToolbarOptions({
   advancePagination: true,
   bottomPager: true,
   topPager: false,
 });
 
-export const assetsServicesColumns = [
+const columns = [
   createColumn('unique_id', {
     dataType: ColumnDataType.NUMERIC,
     isKey: true,
@@ -66,4 +63,14 @@ export const assetsServicesColumns = [
   }),
 ];
 
-export const mobileBreakpointWidth = 800;
+const mobileBreakpointWidth = 800;
+
+const customOptions = {
+  gridName: gridName,
+  toolbarOptions: toolbarOptions,
+  columns: columns,
+  dataSource: dataSource,
+  mobileBreakpointWidth: mobileBreakpointWidth
+}
+
+export default customOptions;

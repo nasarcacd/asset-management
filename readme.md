@@ -14,6 +14,7 @@ What things you need to install the software and how to install them
 Node JS v13.6.0
 yarn 1.22.0
 npm 6.13.4
+heroku-cli (for build to production)
 ```
 
 ### Installing
