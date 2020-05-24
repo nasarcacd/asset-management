@@ -6,7 +6,8 @@ import {
   assetsServicesColumns,
   API_URL,
   mobileBreakpointWidth,
-  toolbarOptions
+  toolbarOptions,
+  title
 } from "./assets-services.resources";
 
 const useStyles = makeStyles((theme) =>
@@ -29,11 +30,11 @@ function AssetsServices() {
 
   return (
     <Container className={classes.container} maxWidth='lg'>
-      <p className={classes.title}>Assets Services</p>
+      <p className={classes.title}>{title}</p>
       <DataGrid
         columns={assetsServicesColumns}
         dataSource={API_URL}
-        gridName='Assets Services'
+        gridName={title}
         mobileBreakpointWidth={mobileBreakpointWidth}
         toolbarOptions={toolbarOptions}
       />

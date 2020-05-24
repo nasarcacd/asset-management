@@ -1,6 +1,6 @@
 # Asset Management React WebApp
 
-Display custom datagrid with Assets Services  with options to filter, sorting and export info to CSV. Project built with React 16.13, [Material UI](https://material-ui.com/), [tubular-react datagrid](https://github.com/unosquare/tubular-react)  and Node JS Express Server with [tubular-nodejs](https://github.com/unosquare/tubular-nodejs) library to handle Tubular Grid request/response with a JSON data connector.
+Display custom datagrid with Assets Services with options to filter, sorting and export info to CSV. Project built with React 16.13, [Material UI](https://material-ui.com/), [tubular-react datagrid](https://github.com/unosquare/tubular-react) and Node JS Express Server with [tubular-nodejs](https://github.com/unosquare/tubular-nodejs) library to handle Tubular Grid request/response with a JSON data connector.
 
 ## Getting Started
 

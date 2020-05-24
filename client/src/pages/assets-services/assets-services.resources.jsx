@@ -5,6 +5,8 @@ import {
   ColumnSortDirection,
 } from 'tubular-common';
 
+export const title = 'Mantenimiento de Activos';
+
 export const API_URL = '/api/assets/services';
 
 export const toolbarOptions = new ToolbarOptions({
@@ -26,7 +28,7 @@ export const assetsServicesColumns = [
   createColumn('name', {
     dataType: ColumnDataType.String,
     searchable: true,
-    label: 'name',
+    label: 'Nombre',
     sortable: true,
   }),
   createColumn('plate', {
