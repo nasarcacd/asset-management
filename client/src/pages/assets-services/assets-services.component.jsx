@@ -4,7 +4,7 @@ import { DataGrid } from 'tubular-react';
 import customOptions from "./assets-services.resources";
 import useStyles from './assets-services.style';
 
-function AssetsServices() {
+const AssetsServices = () => {
   const classes = useStyles();
 
   return (
